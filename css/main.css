@@ -14,7 +14,6 @@ form div {
 form {
     max-width: 900px;
     margin: auto;
-    padding: 10px;
 }
 
 .shadow {
@@ -55,6 +54,10 @@ textarea {
     height: 4em;
 }
 
+button {
+    font-size: 1em;
+}
+
 button,
 input[type=button] {
     border: none;
@@ -62,6 +65,10 @@ input[type=button] {
     cursor: pointer;
     color: white;
     background-color: lightseagreen;
+}
+
+.padded {
+    padding: 0.5em;
 }
 
 .large {
@@ -134,14 +141,6 @@ a {
 section {
     padding-bottom: 0.5em;
     border-bottom: #aaaaaa dotted;
-}
-
-section .address,
-section .postalArea,
-section .title,
-section .description,
-section .contactSeller {
-    padding: 0.2em
 }
 
 section img {
