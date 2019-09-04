@@ -1,70 +1,22 @@
+/*
+general
+ */
+
 body {
     font-family: lucida helvetica, sans-serif;
     margin: 0;
 }
 
-form div {
-    margin-top: 0.75em;
+a {
+    text-decoration: none;
 }
 
-@media screen {
-
-}
-
-form {
-    max-width: 900px;
-    margin: auto;
-}
+/*
+helpers
+ */
 
 .shadow {
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
-}
-
-label {
-    text-align: left;
-}
-
-input[type=checkbox], input[type=radio] {
-    width: 5%;
-}
-
-input {
-    font-size: 1em;
-}
-
-input[type=text],
-input[type=password],
-input[type=email],
-textarea {
-    width: 100%;
-    box-sizing: border-box;
-    background-color: #eee;
-    border-style: none;
-    border-left: 3px lightseagreen solid;
-    padding-left: 0.5em;
-    line-height: 3em;
-}
-
-input[type=button] {
-    width: 100%;
-}
-
-textarea {
-    vertical-align: top;
-    height: 4em;
-}
-
-button {
-    font-size: 1em;
-}
-
-button,
-input[type=button] {
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    color: white;
-    background-color: lightseagreen;
 }
 
 .padded {
@@ -82,27 +34,6 @@ input[type=button] {
 .small {
     width: 34%;
 }
-
-#referee {
-    display: none;
-}
-
-input:valid {
-}
-
-input:invalid {
-    border-left: 3px crimson solid;
-}
-
-/*
-input[required]{
-    background-image: radial-gradient(crimson 45%, transparent 50%);
-    background-size: 1em 1em;
-    background-position: right top;
-    background-repeat: no-repeat;
-    box-shadow: none;
-}
-*/
 
 .left {
     float: left;
@@ -124,6 +55,10 @@ input[required]{
     text-align: center;
 }
 
+/*
+nav
+ */
+
 .logoText {
     font-size: 2em;
     padding: 0 0.2em;
@@ -134,9 +69,82 @@ nav .right {
     padding: 0.8em;
 }
 
-a {
-    text-decoration: none;
+/*
+form
+ */
+
+form {
+    max-width: 900px;
+    margin: auto;
 }
+
+input {
+    font-size: 1em;
+}
+
+input[type=checkbox], input[type=radio] {
+    width: 5%;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #eee;
+    border-style: none;
+    border-left: 3px lightseagreen solid;
+    padding-left: 0.5em;
+    line-height: 3em;
+}
+
+input[type=button] {
+    width: 100%;
+}
+
+textarea {
+    vertical-align: top;
+    height: 10em;
+}
+
+button,
+input[type=button] {
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: lightseagreen;
+}
+
+button {
+    font-size: 1em;
+}
+
+input:valid {
+}
+
+input:invalid {
+    border-left: 3px crimson solid;
+}
+
+/*
+input[required]{
+    background-image: radial-gradient(crimson 45%, transparent 50%);
+    background-size: 1em 1em;
+    background-position: right top;
+    background-repeat: no-repeat;
+    box-shadow: none;
+}
+*/
+
+form div {
+    margin-top: 0.75em;
+}
+
+/*
+listing
+ */
 
 section {
     padding-bottom: 0.5em;
@@ -152,11 +160,11 @@ section .postalArea {
     color: #aaa;
 }
 
+section .title {
+    font-size: 1.5em;
+}
+
 section .price {
     color: black;
     padding-right: 1em;
-}
-
-section .title {
-    font-size: 1.5em;
 }
