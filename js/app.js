@@ -5,7 +5,7 @@
         var router = new Router([
             new Route('signin', 'signin.html'),
             new Route('signup', 'signup.html'),
-            new Route('listing', 'listing.html', true),
+            new Route('listings', 'listings.html', true),
             new Route('item', 'item.html')
         ]);
     }
