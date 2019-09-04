@@ -6,7 +6,7 @@
             new Route('signin', 'signin.html'),
             new Route('signup', 'signup.html'),
             new Route('listings', 'listings.html', true),
-            new Route('item', 'item.html')
+            new Route('listing', 'listing.html')
         ]);
     }
 
