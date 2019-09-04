@@ -2,7 +2,7 @@
 
 (function () {
     function init() {
-        var router = new Router([
+        let router = new Router([
             new Route('signin', 'signin.html'),
             new Route('signup', 'signup.html'),
             new Route('listings', 'listings.html', true),
